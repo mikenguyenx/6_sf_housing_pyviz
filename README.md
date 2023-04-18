@@ -14,7 +14,7 @@ Libraries:
 - `Pathlib` - A Python module that provides an object-oriented interace to working with files & directories.
 - `Numpy` - A Python library that is used for scientific computing and data analysis and provides a number of mathematical functions that can be applied to large sets of numerical data such as linear algebra operations, Fourier transforms, and random number generation. 
 - `Matplotlib` - A Python for creating static, animated, and interactive visualizations in Python. It provides a wide variety of customizable visualizations, including line plots, scatter plots, bar plots, histograms, heatmaps, and more.
-- `PyViz` - A Python visualization package that provides a single platform for accessing multiple visualization libraries, including `hvPlot`and `GeoViews`.
+- `PyViz` - A Python-based open-source visualization framework that provides a suite of tools for creating interactive visualizations of data, including several libraries like `hvPlot`and `GeoViews`.
 
 
 Operating System(s):  Any operating system that supports Python, including Windows & macOS.
