@@ -35,7 +35,7 @@ conda install -c pyviz hvplot geoviews
 ```
 The following image shows the packages to be installed:
 
-![hvplot_geoviews1](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\6_sf_housing_pyviz\hvplot_geoviews1.png)
+![hvplot_geoviews1](hvplot_geoviews1.png)
 
 5. Confirm the installation of all the PyViz packages by running the following commands:
 ```
@@ -47,7 +47,7 @@ The following image shows the responses, which list the installed packages.
 IMPORTANT
 Make sure to use hvPlot version 0.7.0 or later.
 
-![hvplot_geoviews2](C:\Users\mikenguyen\Desktop\Fintech Bootcamp\1_Challenges\6_sf_housing_pyviz\hvplot_geoviews2.png)
+![hvplot_geoviews2](hvplot_geoviews2.png)
 
 6. Clone the repository: `git clone "https://github.com/mikenguyenx/6_sf_housing_pyviz"` using git or download the ZIP file and extract it to a local directory.
 
