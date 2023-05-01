@@ -1,4 +1,4 @@
-# SF Housing Visual Analysis
+# SF Housing Proptech Visualization Analysis
 
 Proptech, the application of technology to real-estate markets, is an innovative domain in the fintech industry. A proptech company has is looking to launch a one-click service for people to buy properties and then rent them. The company wants to have a trial of this offering in the San Francisco real-estate market. If the service proves popular, they can then expand to other markets.
 
