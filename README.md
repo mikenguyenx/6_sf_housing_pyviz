@@ -1,6 +1,9 @@
 # SF Housing Visual Analysis
 
-This Jupyter notebook contains code that automates a quantitative analysis using statistical algorithms to evaluate investment options for inclusion into client portfolios based on key risk-management metrics: the daily returns, standard deviations, Sharpe ratios, and betas. The analysis includes four new investment options (Soros, Tiger Global, Berkshire Hathaway, & Paulson) for inclusion in the client portfolios compared to the S&P 500 Index.
+Proptech, the application of technology to real-estate markets, is an innovative domain in the fintech industry. A proptech company has is looking to launch a one-click service for people to buy properties and then rent them. The company wants to have a trial of this offering in the San Francisco real-estate market. If the service proves popular, they can then expand to other markets.
+
+This Jupyter notebook contains the analysis of the housing rental market data for San Francisco. The analysis uses data visualization techniques, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
+
 
 ## Technologies
 
@@ -12,10 +15,9 @@ Interactive Development Environment: JupyterLab
 Libraries: 
 - Pandas - A Python library that is used for data manipulation, analysis, and visualization. 
 - Pathlib - A Python module that provides an object-oriented interace to working with files & directories.
-- Numpy - A Python library that is used for scientific computing and data analysis and provides a number of mathematical functions that can be applied to large sets of numerical data such as linear algebra operations, Fourier transforms, and random number generation. 
-- Matplotlib - A Python for creating static, animated, and interactive visualizations in Python. It provides a wide variety of customizable visualizations, including line plots, scatter plots, bar plots, histograms, heatmaps, and more.
 - PyViz - A Python-based open-source visualization framework that provides a suite of tools for creating interactive visualizations of data, including several libraries like hvPlot and GeoViews.
-
+- HvPlot - A Python library for creating interactive plots using the HoloViews library and Bokeh visualization library. 
+- Warnings - A Python library that provides a way to handle warning messages that may occur during the execution of a program.
 
 Operating System(s):  Any operating system that supports Python, including Windows & macOS.
 
@@ -27,7 +29,7 @@ To run this analysis, make sure you install the necessary dependencies:
 2. Install and run Jupyter Lab:  https://jupyter.org/install
 3. Install the necessary libraries using pip, the package installer for Python:
 ```
-pip install pandas pathlib numpy matplotlib
+pip install pandas pathlib 
 ```
 4. Install the PyViz packages by using the conda install command as follows:
 ```
@@ -58,23 +60,23 @@ To run the script for the Fund Portfolio Risk Return Analysis:
 
 1. Open a terminal or command prompt and navigate to the directory with the analysis.
 1. Launch Jupyter Lab: jupyter lab
-2. Open `XXXX.ipynb` in Jupyter Lab.
+2. Open `san_francisco_housing.ipynb` in Jupyter Lab.
 3. Run the code cells by clicking on the run button or by pressing the `Shift + Enter` key combination to load and preprocess the data, and generate visualizations
-4. The script uses `Pandas` to collect CSV data into the `Jupyter notebook` file for analysis using statistical algorithms and `Matplotlib` visualizations to analyze fund portfolio performance, risk, volatility, and portfolio returns. 
+4. The script uses Pandas to read CSV data into the Jupyter notebook file for analysis through interactive visualizations and geospatial analysis to find properties in the San Francisco market that are viable investment opportunities using the PyViz framework and HvPlot libraries.
 
 Below are screenshots of examples of results from the analysis:
 
-### Daily Returns Analysis 
+### Housing Units Visualization 
 
-![daily_returns_box](daily_returns_box.png)
+![housing_units](housing_units_bar.png)
 
-### Rolling Standard Deviation Analysis 
+### Interactive Line Plot - Average Sale Prices & Gross Rent
 
-![rolling_std](rolling_std.png)
+![interactive_line_plot](interactive_line_plot.png)
 
-### Sharpe Ratio Analysis 
+### Interactive Neighborhood Map (Geospatial Analysis)
 
-![sharpe_ratios](sharpe_ratios.png)
+![interactive_geo_map](interactive_geo_map.png)
 
 
 ## Contributors
